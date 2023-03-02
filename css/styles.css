@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #CC99FF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+  background-color: #66B2FF;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 60px;
+}
+
+.navbar-brand h1 { /* FOOD LLC */
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #fff;
+}
+
+#nav-list a:hover {
+  background: #CC99FF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.5px solid #660033;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/** MAIN CONTENT **/
+
+
+#content-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+#main-text {
+  text-align: justify;
+  color: #fff;
+}
+
+.text-background {
+  height: auto;
+  padding: 20px 40px 20px 40px;
+  background-color:#66B2FF;
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* FOOD LLC */
+    font-size: 5vw;
+  } 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+}
